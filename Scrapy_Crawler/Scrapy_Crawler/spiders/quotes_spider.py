@@ -13,3 +13,11 @@ class QuotesSpider(scrapy.Spider):
         filename = f'quotes-{page}.html'
         with open(filename, 'wb') as f:
             f.write(response.body)
+
+        for quotes in response.css("div.quote"):
+            yield {
+                "text": quotes.css("span.text::text").get(),
+                "author": quotes.css("small.author::text").get(),
+                "tags": quotes.css("div.tags a.tag::text").getall(),
+            }
+
