@@ -191,15 +191,15 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/benymaxparsa/Web-Crawler?style=for-the-badge
 [contributors-url]: https://github.com/benymaxparsa/Web-Crawler/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/benymaxparsa/Web-Crawler?style=for-the-badge
 [forks-url]: https://github.com/benymaxparsa/Web-Crawler/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/benymaxparsa/Web-Crawler?style=for-the-badge
 [stars-url]: https://github.com/benymaxparsa/Web-Crawler/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/benymaxparsa/Web-Crawler?style=for-the-badge
 [issues-url]: https://github.com/benymaxparsa/Web-Crawler/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/benymaxparsa/Web-Crawler?style=for-the-badge
 [license-url]: https://github.com/benymaxparsa/Web-Crawler/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/parsakamalipour/
