@@ -5,6 +5,7 @@ class GooglePlaySpider(scrapy.Spider):
     name = "google_play"
     start_urls = [
         "https://play.google.com/store/apps/details?id=com.supercell.clashofclans",
+        "https://play.google.com/store/apps/details?id=com.unimob.stickman.master.shadow.premium",
     ]
 
     def parse(self, response):
