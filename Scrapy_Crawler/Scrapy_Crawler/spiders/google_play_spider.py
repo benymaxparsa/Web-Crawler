@@ -19,3 +19,6 @@ class GooglePlaySpider(scrapy.Spider):
                 "Price": apps.css("span.oocvOe button::text").get(),
                 "Additional Info": apps.css("div.IQ1z0d span.htlgb::text").getall(),
             }
+
+        next_pages = apps.css("div.RZEgze a.JC71ub::attr(href)").getall()
+        yield from response.follow_all(next_pages, callback=self.parse)
