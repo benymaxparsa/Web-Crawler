@@ -8,6 +8,10 @@ class GooglePlaySpider(scrapy.Spider):
         "https://play.google.com/store/apps/details?id=com.unimob.stickman.master.shadow.premium",
     ]
 
+    custom_settings = {
+        'DEPTH_LIMIT': "5",
+    }
+
     def parse(self, response):
         for apps in response.css("div.T4LgNb"):
             yield {
