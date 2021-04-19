@@ -72,7 +72,9 @@ To get a local copy up and running follow these simple example steps.
 
 * Python compiler, Editor 
 
-* terminal / cmd
+* Terminal / cmd
+
+* Git
 
 ### Installation
 
