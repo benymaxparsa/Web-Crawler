@@ -87,9 +87,9 @@ To get a local copy up and running follow these simple example steps.
   ``` 
   pip install Scrapy
   ```
-1. To run crawler for google play
+1. To run crawler for google play and save crawled data as json, jl, and csv file:
  ```
-   scrapy crawl google_play
+   scrapy crawl google_play -O google_play.json -O google_play.jl -O google_play.csv
  ```
 
 
