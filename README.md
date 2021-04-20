@@ -15,6 +15,7 @@
   
   <p align="center">
     This is a project for my Information Retrieval & Web Search class.
+    <br />
     (Spring 2021)
     <br />
     
