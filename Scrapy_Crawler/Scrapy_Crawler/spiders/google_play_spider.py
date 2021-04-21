@@ -22,6 +22,7 @@ class GooglePlaySpider(scrapy.Spider):
                 "Number of Reviews": apps.css("span.EymY4b span::text").get(),
                 "Price": apps.css("span.oocvOe button::text").get(),
                 "Additional Info": apps.css("div.IQ1z0d span.htlgb::text").getall(),
+                "Spider Depth Level": response.meta['depth']
             }
 
         next_pages = apps.css("div.RZEgze a.JC71ub::attr(href)").getall()
