@@ -3,6 +3,7 @@ import scrapy
 
 class GooglePlaySpider(scrapy.Spider):
     name = "google_play"
+    allowed_domains = ["play.google.com"]
     start_urls = [
         "https://play.google.com/store/apps/details?id=com.supercell.clashofclans",
         "https://play.google.com/store/apps/details?id=com.unimob.stickman.master.shadow.premium",

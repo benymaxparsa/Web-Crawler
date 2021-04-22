@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Scrapy_Crawler\Scrapy_Crawler\settings.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Scrapy_Crawler\Scrapy_Crawler\spiders\google_play_spider.py">
           <value>
             <Attribute>
