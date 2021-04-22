@@ -2,6 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![Closed Issues][issues-closed-shield]][issues-closed-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -80,15 +81,15 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Clone the repo
- ```
+ ```sh
    git clone https://github.com/benymaxparsa/Web-Crawler.git
  ```
 1. Install Scrapy 
-  ``` 
+  ```sh
   pip install Scrapy
   ```
 1. To run crawler for google play and save crawled data as json, jl, and csv file:
- ```
+ ```sh
    scrapy crawl google_play -O google_play.json -O google_play.jl -O google_play.csv
  ```
 
@@ -132,6 +133,8 @@ First Name | Last Name | Student Number
 [stars-url]: https://github.com/benymaxparsa/Web-Crawler/stargazers
 [issues-shield]: https://img.shields.io/github/issues/benymaxparsa/Web-Crawler?style=for-the-badge
 [issues-url]: https://github.com/benymaxparsa/Web-Crawler/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/benymaxparsa/Web-Crawler?style=for-the-badge
+[issues-closed-url]: https://github.com/benymaxparsa/Web-Crawler/issues?q=is%3Aissue+is%3Aclosed
 [license-shield]: https://img.shields.io/github/license/benymaxparsa/Web-Crawler?style=for-the-badge
 [license-url]: https://github.com/benymaxparsa/Web-Crawler/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
