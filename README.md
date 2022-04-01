@@ -102,6 +102,7 @@ Scrapy is an application framework for crawling web sites and extracting structu
 
 _For more examples, please refer to the [Documentation](https://docs.scrapy.org/en/latest/index.html)_
 
+![image](https://user-images.githubusercontent.com/51443025/161238768-906d3478-1aa9-46df-8900-0d1f4d59d1fa.png)
 
 
 <!-- LICENSE -->
